@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Efortles Carousel</title>
+</head>
+
+<body>
+    <h1>The Efortles Carousel</h1>
+
+    <p>Hi I am a Carousel!</p>
+
+    <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper">
+                    <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                    <h1 style="text-align: center;">Hi! I'm your Carousel!</h1>
+                    <h1 style="text-align: center;">The timing of my slides can be adjusted</h1>
+
+                    <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                </div>
+            </li>
+            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+
+                <h1 style="text-align: center;">Fill Me With Information!</h1>
+                <h1 style="text-align: center;">I can be inserted into any of your pages.</h1>
+
+                <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+
+                <h1 style="text-align: center;">Pictures work too!</h1>
+
+                <img src="./ovwysjs5csiz.jpg" style="height: 300px; width: 450px;">
+
+                <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+            </li>
+            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                <div class="carousel__snapper"></div>
+                <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+
+                <h1 style="text-align: center;">How may I be of service?</h1>
+                <h1 style="text-align: center;">Let Cooper know!</h1>
+
+                <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+            </li>
+        </ol>
+        <aside class="carousel__navigation">
+            <ol class="carousel__navigation-list">
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                </li>
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                </li>
+            </ol>
+        </aside>
+    </section>
+
+
+</body>
+
+</html>
